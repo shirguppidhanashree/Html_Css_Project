@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Portal</title>
+
+<!-- INTERNAL CSS -->
+<style>
+
+/* Universal Selector */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body{
+    background-color:#7b91b3; /* HEX color */
+    padding: 25px;
+}
+
+/* ID Selector */
+#main-header{
+    background-color:rgb(10, 211, 211); /* RGB color */
+    text-align:center;
+    padding:20px;
+    border-radius:8px;
+}
+
+/* Class Selector */
+.highlight{
+    color:rgb(3, 31, 7);
+    font-weight:bold;
+}
+
+/* Element Selector */
+h2{
+    margin-top:20px;
+    margin-bottom:10px;
+    color:hsl(210,60%,35%); /* HSL color */
+}
+
+/* Group Selector */
+table, th, td{
+    border:1px solid #44078a;
+}
+
+/* Table Styling */
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:rgb(243, 244, 245);
+    margin-top:10px;
+}
+
+th{
+    background-color:#0b79e7;
+    color:white;
+    padding:10px;
+}
+
+td{
+    padding:8px;
+    text-align:center;
+}
+
+/* Form Styling */
+form{
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    width:60%;
+}
+
+input, select, textarea{
+    width:100%;
+    padding: 10px;
+    margin-top:20px;
+    margin-bottom:15px;
+    border:1px solid #0b0130;
+    border-radius:5px;
+}
+
+/* Button Styling */
+button{
+    padding: 20px 10px;
+    border:none;
+    background-color:#3498db;
+    color:rgb(12, 1, 1);
+    border-radius:5px;
+    cursor:pointer;
+}
+
+/* Button Hover */
+button:hover{
+    background-color:#1f6fa5;
+}
+
+/* DIV container */
+.container-box{
+    background-color:rgb(176,18,216);
+    color:white;
+    padding:10px;
+    margin-top:10px;
+    width:50%;
+}
+
+
+/* Media Elements */
+video{
+    margin-top:10px;
+}
+
+iframe{
+    margin-top:10px;
+    border-radius:8px;
+}
+
+
+header{
+    min-height:20vh;
+}
+
+</style>
+</head>
+
+<body>
+
+<header id="main-header">
+<h2>Student Portal</h2>
+<p>Welcome to <span class="highlight">Phase 2 Project</span></p>
+</header>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Course</th>
+<th>Marks</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>101</td>
+<td>Aryan</td>
+<td>BCA</td>
+<td>85</td>
+</tr>
+
+<tr>
+<td>102</td>
+<td>Sneha</td>
+<td>BBA</td>
+<td>78</td>
+</tr>
+
+<tr>
+<td>103</td>
+<td>Dhanashree</td>
+<td>BSc</td>
+<td>90</td>
+</tr>
+
+<tr>
+<td>104</td>
+<td>Pranali</td>
+<td>BCA</td>
+<td>88</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h2>Registration Form</h2>
+
+<form>
+
+<label>Full Name:</label>
+<input type="text" placeholder="Enter your name" required>
+
+<label>Email:</label>
+<input type="email" placeholder="Enter email" required>
+
+<label>Password:</label>
+<input type="password" minlength="8" required>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender"> Male<br>
+<input type="radio" name="gender"> Female
+
+<br><br>
+
+<label>Skills:</label><br>
+<input type="checkbox"> HTML
+<input type="checkbox"> CSS
+<input type="checkbox"> JavaScript
+<input type="checkbox"> Python
+<input type="checkbox"> Java
+
+<br><br>
+
+<label>City:</label>
+<select>
+<option>Pune</option>
+<option>Mumbai</option>
+<option>Kolhapur</option>
+<option>Ichalkaranji</option>
+<option>Sangli</option>
+</select>
+
+<label>Address:</label>
+<textarea rows="4" placeholder="Enter address"></textarea>
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+
+</form>
+
+<hr>
+
+<h2>Containers</h2>
+
+<div class="container-box">
+This is a DIV container
+</div>
+
+
+
+<hr>
+
+<h2>Video Example</h2>
+<video width="300" controls>
+<source src="https://youtu.be/xWrl9ENjwDA?si=RJ1w-0vp_Ze45B3L" type="video/mp4">
+</video>
+
+<hr>
+
+<h2>Iframe</h2>
+
+<iframe width="500" height="280"
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.638464150278!2d74.22032027593023!3d16.69496557238155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0555a31825e95%3A0x48d3dac4a165bedf!2sShree%20(Mahalaxmi)%20Temple%2C%20Kolhapur!5e0!3m2!1sen!2sin!4v1772710669082!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+allowfullscreen>
+</iframe>
+
+</body>
+</html>
