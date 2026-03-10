@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO -->
+<meta name="description" content="Oktacon Software Internship Learning Page">
+<meta property="og:title" content="Oktacon Software Internship">
+<meta property="og:description" content="Learning HTML, CSS and JavaScript during internship at Oktacon Software">
+
+<title>Oktacon Software | Internship Learning</title>
+
+<style>
+
+/* Universal selector */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f2f5f9;
+color:#0a0a0a;
+line-height:1.6;
+}
+
+header{
+background:#0a2a5e;
+color:white;
+padding:20px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.logo img{
+height: 100px;
+}
+
+/* Navigation */
+nav{
+background:#133b80;
+display:flex;
+justify-content:center;
+gap:30px;
+padding:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+padding:6px 12px;
+}
+
+nav a:hover{
+background:rgb(242, 136, 49);
+color:#133b80;
+border-radius:5px;
+}
+
+main{
+display:grid;
+grid-template-columns:3fr 1fr;
+gap:20px;
+padding:20px;
+}
+
+section{
+background:rgb(251, 249, 251)26, 14, 14);
+padding:20px;
+border-radius:8px;
+box-shadow:0 0 6px rgba(0,0,0,0.1);
+margin-bottom:20px;
+}
+
+article{
+margin-bottom:15px;
+}
+
+/* Figure */
+figure{
+text-align:center;
+margin-top:15px;
+}
+
+figure img{
+max-width:100%;
+border-radius:6px;
+}
+
+figcaption{
+font-size:14px;
+color:rgb(9, 0, 9);
+margin-top:5px;
+}
+
+/* Aside */
+aside{
+background:#eef3ff;
+padding:15px;
+border-left:4px solid #75c3fa;
+height:fit-content;
+}
+
+/* Typography */
+h2{
+color:#133b80;
+margin-bottom:10px;
+}
+
+button{
+padding:8px 14px;
+background:#133b80;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#071d3f;
+}
+
+/* Pseudo selectors */
+section:first-child{
+border-left:5px solid green;
+}
+
+article:last-child{
+border-bottom:2px dashed #ccc;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+main{
+grid-template-columns:1fr;
+}
+
+nav{
+flex-wrap:wrap;
+}
+
+}
+
+/* Footer */
+footer{
+background:#0a2a5e;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<img src="oktacon.jpeg" alt="Oktacon Software Logo">
+</div>
+
+<div>
+<h1>Oktacon Software</h1>
+<p>Internship Learning Portal</p>
+</div>
+
+</header>
+
+<nav aria-label="Main Navigation">
+
+<a href="#">Home</a>
+<a href="#">Projects</a>
+<a href="#">Technologies </a>
+<a href="#">Contact us</a>
+
+</nav>
+
+<main>
+
+<section>
+
+<h2>Internship Overview</h2>
+
+<article>
+<p>
+During the internship at Oktacon Softwares, the focus is on learning modern
+web development technologies including HTML, CSS and JavaScript.
+These technologies help in building responsive and interactive websites.
+</p>
+</article>
+
+<article>
+<p>
+The training includes understanding semantic HTML structure, CSS layouts,
+responsive design and adding dynamic behavior using JavaScript.
+</p>
+</article>
+
+<figure>
+
+<img src="csslogo.png" alt="Web Development">
+
+<figcaption> FRONTEND learning during internship</figcaption>
+
+</figure>
+
+</section>
+
+<section>
+
+<h2>Technologies Being Learned</h2>
+
+<article>
+<ul>
+<li>HTML5 Structure</li>
+<li>CSS Layouts</li>
+<li>Responsive Web Design</li>
+<li>JavaScript </li>
+</ul>
+</article>
+
+<details>
+
+<summary>Click to view internship focus</summary>
+
+<p>
+The internship focuses on building user interfaces,
+improving accessibility and creating interesting projects based on HTML,CSS,JavaScript responsive web pages
+that work across different devices.
+</p>
+
+</details>
+
+<br>
+
+<button role="button" aria-label="internship learning button">
+Explore Internship Projects
+</button>
+
+</section>
+
+</main>
+
+<aside>
+
+<h3>Internship Benefits</h3>
+
+<ul>
+<li>Provides Hybrid work environment</li>
+<li>Provides flexible scheduling</li>
+<li>Training from basics </li>
+<li>Work on real-life projects</li>
+<li>Mentorship and guidance</li>
+</ul>
+
+</aside>
+
+<footer>
+
+<p>© 2026 Oktacon Softwares,Kolhapur</p>
+
+</footer>
+
+</body>
+
+</html>
